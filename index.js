@@ -21,7 +21,7 @@ const startupMessage = `
 [0m
 `;
 
-app.get("/", (req, res) => res.send("Try to Take Over the World!"));
+app.get("/", (req, res) => res.send("Try to Take Over the WORLD!"));
 
 for (let line of startupMessage.split("\n")) {
 	console.log(line);
